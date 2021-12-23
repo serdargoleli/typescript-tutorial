@@ -1,0 +1,27 @@
+{
+  "name": "typescript-tutorial",
+  "version": "1.0.0",
+  "description": "TypeScript nedir, nasıl kullanılır....",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serdargoleli/typescript-tutorial.git"
+  },
+  "keywords": [
+    "typescript",
+    "typescript tutorial"
+  ],
+  "author": "Serdar Göleli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serdargoleli/typescript-tutorial/issues"
+  },
+  "homepage": "https://github.com/serdargoleli/typescript-tutorial#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.4"
+  }
+}

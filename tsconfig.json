@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    // kullanılan kütüphaneler
+    // ESNext: JS'nin son sürümü getir
+    // DOM: ts dosyası içerisinde html öğlerini kullanmak için
+    "lib": ["ESNext"],
+
+    // strict: Javascripte type zorunluluğu tanır.
+    "strict": false,
+
+    // node.js'de kullanacağımız için commanjs olacak
+    "module": "CommonJS",
+
+    // allowJs: TypeScript içinde javascript kullanma
+    // alwaysStrict: Her dosyaya Use Strict ekler
+
+    // moduleResolution: node js kullanıalcaksa
+    "moduleResolution": "Node",
+    // esModuleInterop: import {package_name} diyerek kullanmamızı sağlar
+    "esModuleInterop": false,
+
+    // target: hangi dile derlensin
+    "target": "ES6",
+
+    //çıktıyı vereceği yer
+    "outDir": "dist",
+
+    // rootDir: Kaynak kodlarımızın nerede olduğunu belirtir
+    "rootDir": "src"
+  }
+}
