@@ -7,9 +7,13 @@ TypeScript nedir, nasıl kullanılır....
 - microsoft tarafından geliştirilen Javascript'in yazım standartlarını değiştiren üst seviye yazım standartıdır.
 - Typescript ile yazılan kodlar transpilar aracılığıla Javascripte derlenir.
 
+## Neden ortaya çıktı
+
+- JavaScript'in Node.js ile birlikte sunucularda, Electron.js ile masaüstü uygulamalarında ve çeşitli kütüphaneler sayesinde hibrit mobil uygulama geliştirmede sıkça kullanılmaya başlandı. JS, bu tarz platformlar ve büyük çaplı projeler için bazı yapısal eksiklikleri vardı. Tip kontrolünün olmaması, derleme aşamasının olmamasından dolayı hata kontrolünün zor olması gibi... TS bü tür eksikleri gidermek ve JS büyük projelerde daha etkili kullanmak için çıkarılmış javascript supersetidir. Yeni bir dil değildir, karbon fiberler güçlendirilmiş javascriptir, diyebiliriz:)
+
 ### TS Özellikleri
 
-- Statik Tipleme(Static Typing) (Java ve C#'daki gibi değişken tanımlamaları)
+- Statik Tipleme(Static Typing) (Java ve C#'daki gibi değişken tipi tanımlamaları)
 - Sınıf tabanlı objeler ve OOP Özellikleri
 - Modülerlik
 - ES6 Standartları
